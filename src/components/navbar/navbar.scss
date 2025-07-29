@@ -1,21 +1,6 @@
-@import "../../styles/variables.scss";
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  padding: 1rem;
-  align-items: center;
-  background-color: #292933b3;
-
-  .navbar-links a{
-    margin: 0 1rem;
-    padding: 0.5rem;
-
-    &:hover {
-      color: $suprachem-yellow;
-    }
+.smenu a{
+  color: var(--bs-white);
+  &:hover {
+    color: var(--bs-warning);
   }
 }

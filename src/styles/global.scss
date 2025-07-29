@@ -1,36 +1,12 @@
-@import "./variables.scss";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
 body{
   background: url("suprachemBG.png") no-repeat center center fixed;
   background-size: cover;
-  min-height: 100%;
-  font-family: "Inter", sans-serif;
-  color: $main-color;
+  min-height: 100vh;
 }
 
-.main {
-  padding: 1rem;
-  border: 1px solid #fff;
-}
+$font-family-base: "Inter", sans-serif;
+$link-decoration: none;
 
-.container {
-  margin: 0 auto;
-  @media (min-width: 768px) {
-    max-width: 720px;
-  }
-  @media (min-width: 1400px) {
-    max-width: 1320px;
-  }
-}
-
+@import "bootstrap/scss/bootstrap";

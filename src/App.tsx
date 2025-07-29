@@ -1,11 +1,10 @@
-import Home from "./pages/home/Home.tsx";
-
 import {
     createBrowserRouter,
     RouterProvider,
     Outlet
 } from "react-router-dom";
 
+import Home from "./pages/home/Home.tsx";
 import Research from "./pages/research/Research.tsx";
 import Publications from "./pages/publications/Publications.tsx";
 import Members from "./pages/members/Members.tsx";
@@ -16,12 +15,10 @@ function App() {
 
     const Layout = () => {
         return(
-           <div className="main">
-               <Navbar />
-               <div className="container">
-                   <Outlet />
-               </div>
-           </div>
+            <>
+                <Navbar />
+                <Outlet />
+            </>
         )
     }
 
