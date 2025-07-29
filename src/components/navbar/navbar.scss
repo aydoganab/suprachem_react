@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar-links a{
+    margin: 0 1rem;
+    padding: 0.5rem;
+
+    &:hover {
+      color: $suprachem-yellow;
+    }
+  }
+}
