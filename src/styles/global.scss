@@ -10,3 +10,16 @@ $font-family-base: "Inter", sans-serif;
 $link-decoration: none;
 
 @import "bootstrap/scss/bootstrap";
+
+h3{
+  padding-top: 9rem;
+  margin-bottom: 4rem;
+}
+
+.supraChem-icon{
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+}

@@ -10,6 +10,7 @@ const Navbar = () => {
                 <div className="d-flex align-items-center justify-content-between gap-5 ms-auto smenu">
                     <a href="/research">REASEARCH</a>
                     <a href="/publications">PUBLICATIONS</a>
+                    <a href="/publications">MEMBERS</a>
                 </div>
             </div>
         </div>

@@ -1,8 +1,7 @@
-import "./research.scss";
 
 const Research = () => {
     return(
-        <div className="research">Research</div>
+        <div className="h3 text-warning text-center">RESEARCH</div>
     )
 }
 
